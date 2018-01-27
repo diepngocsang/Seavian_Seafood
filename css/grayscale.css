@@ -146,6 +146,22 @@ a:hover {
     }
 }
 
+.header-intro {
+    position: relative;
+}
+
+.header-intro .intro-body {
+    position: absolute;
+    top: 15vw;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+
+.header-intro .intro-body h1 {
+    font-size: 7vw;
+}
+
 .masthead {
     display: table;
     width: 100%;
@@ -258,6 +274,54 @@ a:hover {
     background-color: #42DCA3;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+#service .content-div {
+    max-width: 100% !important;
+}
+
+#service .padding-bt {
+    padding-bottom: 20px;
+}
+
+#service p {
+    text-align: justify;
+    margin-bottom: 5px;
+    line-height: 120%;
+    font-size: 1.3vw;
+}
+
+#service .col-sm {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#service h2 {
+    font-size: 3vw;
+}
+
+#service .mx-auto {
+    width: 100%;
+    max-width: 100%;
+    flex: 100%;
+}
+
+#service .content-div .content {
+    max-width: 100%;
+}
+
+#service .content-div .content h5 {
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -272,6 +336,25 @@ ul.banner-social-buttons {
     #carouselExampleControls img {
         width: 100% !important;
         height: 350px;
+    }
+    .header-intro .intro-body {
+        display: none;
+    }
+    .header-intro .carousel {
+        padding-top: 90px;
+    }
+    #service h2 {
+        font-size: 6vw;
+    }
+    #service h5,
+    #service p {
+        font-size: 3vw !important;
+    }
+    #service .padding-bt {
+        padding-bottom: 0;
+    }
+    #service .detail-content {
+        padding-bottom: 20px;
     }
 }
 
